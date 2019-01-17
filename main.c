@@ -25,6 +25,7 @@ int main(){
             scanf("%c",&i);
             scanf("%c",&i);
         }
+
         if(code==2){
             char x;
             if(index>0){
@@ -35,21 +36,7 @@ int main(){
                 scanf("%c",&x);
             }
         }
-        if(code==3){
-            char x;
-            if(index>0){
-                for(int=i;index>i;i++){
-                printf("di %d yi %c\n",i+1,arr[i]);    
-                }
-            }else{
-                printf("wu\n");
-            printf("jixu\n");
-            scanf("%d",&x);
-            scanf("%d",&x);
-            }
-        }
     }
-    
     return 0;
 
 }
